@@ -1,0 +1,328 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(29, 28, 28);
+    width: 100%;
+    font-size: 1.5vw;
+}
+.nameLogo{
+    padding: 30px;
+}
+.aboutMe{
+   padding-right: 60px;
+}
+.aboutMe a{
+ text-decoration: none;
+ color: white;
+ padding-right: 43px;
+}
+.aboutMe a:hover{
+    color: rgb(53, 119, 53);
+}
+.profilePhoto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.profilePhoto{
+    border-radius: 50%;
+    width: 30%;
+}
+.mainBody{
+    font-size: 1.6vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  rgb(29, 28, 28);
+    color: white;
+    padding-top: 60px; 
+}
+.cv{
+    background-color: rgb(67, 216, 112);
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 5px;
+    transition: .3s;
+}
+.learnMore{
+    background-color:  rgb(29, 28, 28);
+    color: white;
+    border: solid 1px white;
+    font-weight: 600;
+    padding: 5px;
+    transition: .3s;
+}
+.resume p{
+    color: rgb(156, 155, 155);
+}
+
+.imgtravel {
+    width: 120%!important;
+    height: 90%;
+    
+    /* height: 30vh;*/
+    margin-right: 24px;
+    /*margin-left: 16px; */
+}
+
+.cv a{
+    text-decoration: none;
+    color: white;
+}
+.cv a:hover{
+    color: white;
+}
+.cv:hover{
+    background-color: rgb(16, 201, 56);
+}
+.learnMore:hover{
+    background-color: rgb(97, 97, 97);
+}
+.aboutMain{
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color:  rgb(29, 28, 28);
+    color: white;
+    
+}
+.aboutMain p{
+    width: 35%;
+}
+.social a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    padding: 20px;
+    font-size: 1.6vw;
+}
+.instagram:hover{
+    color: rgb(185, 51, 51)!important;
+}
+.telegram:hover{
+    color: rgb(32, 204, 235);
+}
+.social img{
+    transition: .3s;
+}
+.social img:hover{
+    transform: scale(1.2,1.2);
+}
+.whatIdo{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(29, 28, 28);
+}
+.wtd{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgb(29, 28, 28);
+    margin: 0;
+}
+.whatIdo div{
+    border: 1px solid;
+    width: 30%;
+    height: 30vh;
+    padding: 20px;
+    background-color: rgb(34, 33, 33);
+    color: rgb(173, 169, 169);
+}
+.whatIdo h3{
+   padding-top: 20px;
+   width: 20%;
+}
+.whatIdo div:hover{
+    border-bottom: 2px solid rgb(53, 119, 53);
+}
+.mainSkills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    background-color: rgb(34, 33, 33);
+    color: rgb(173, 169, 169);
+    border: 2px solid;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.skills{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(29, 28, 28);
+}
+.skills .h2{
+    color: white;
+    margin: 0;
+    padding: 30px;
+}
+.mainSkills p{
+    color:rgb(53, 119, 53) ;
+}
+.contactMain{
+    text-align: center;
+    background-color: rgb(29, 28, 28);
+}
+.contactMain h2{
+    color: white;
+    padding: 30px;
+}
+form input{
+    width: 30vw;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-bottom: 2px solid rgb(173, 169, 169);
+    background-color: rgb(29, 28, 28);
+}
+form textarea{
+    width: 63vw;
+    height: 30vh;
+    border: 2px solid rgb(173, 169, 169);
+    background-color: rgb(29, 28, 28);
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+}
+form button{
+    background-color: rgb(67, 216, 112);
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 5px;
+    transition: .3s;
+    margin: 10px;
+}
+form button:hover{
+    background-color: rgb(16, 201, 56);
+}
+.copyright{
+    text-align: center;
+    background-color: rgb(29, 28, 28);
+    color: rgb(173, 169, 169);
+}
+
+.copyright p{
+    padding-top: 250px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+@media  screen and (max-width:490px) {
+    .mainBody{
+        font-size: 3vw;
+    }
+  .aboutMain{
+      font-size: 3.5vw;
+  }  
+  .aboutMain p{
+      width: 80%;
+  }
+  nav{
+      font-size: 2.5vw;
+      display: flex;
+      flex-direction: column;
+
+  }
+  nav .aboutMe{
+      display: flex;
+      flex-direction: row;
+      padding-left: 50px;
+
+  }
+  .social{
+      font-size: 3vw;
+  }
+  .whatIdo{
+      display: flex;
+      flex-direction: column;
+
+  }
+  .whatIdo div{
+      width: 100%;
+  }
+  .mainSkills{
+      display: flex;
+      flex-direction: column;
+
+
+  }
+.formMain1{
+    display: flex;
+    flex-direction: column;
+}
+.formMain2{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    width: 80%;
+}
+form textarea{
+    width: 80%;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+}
+.projects img{
+  width: 82%;
+  transition: .3s;
+}
+.mainProjects h2{
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.projects {
+    display: flex;
+    justify-content: space-around;
+}
+.projects div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainProjects{
+    background-color: rgb(29, 28, 28);
+}
+.projects a{
+    text-decoration: none;
+    color: green;
+    font-size: 25px;
+    text-align: center;
+}
+.projects img:hover{
+    transform: scale(1.1 ,1.1);
+}
+
+.rasmjavohir {
+    height: 500px!important;
+    width: 470px!important;
+}
+
+.reactMain img {
+    width: 400px;
+    height: 230px;
+
+    padding-left: 20px;
+}
+
+.profilePhoto img {
+    width: 360px;
+    height: 360px;
+}
